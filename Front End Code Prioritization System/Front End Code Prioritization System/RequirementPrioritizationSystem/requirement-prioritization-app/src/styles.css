@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added below */
+
+body {
+    @apply bg-gray-100 text-gray-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+}
+
+button {
+    @apply transition duration-200 ease-in-out;
+}
+
+button:hover {
+    @apply bg-blue-600;
+}
+
+.table {
+    @apply min-w-full bg-white border border-gray-200;
+}
+
+.table th, .table td {
+    @apply px-4 py-2 border-b;
+}
+
+.table th {
+    @apply bg-gray-200 text-left;
+}
+
+.table tr:hover {
+    @apply bg-gray-100;
+}
+
+.scrollable {
+    @apply overflow-x-auto;
+}
